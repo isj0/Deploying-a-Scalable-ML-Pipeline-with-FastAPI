@@ -6,9 +6,9 @@ import requests
 r = requests.get("http://127.0.0.1:8000")
 
 # print the status code
-print(f"Status Code: {r.status_code}")
+print("Status Code:", r.status_code)
 # print the welcome message
-print(f"Result: {r.json()['message']}")
+print("Result:", r.json())
 
 
 
@@ -30,9 +30,9 @@ data = {
 }
 
 #  send a POST using the data above
-r = requests.post("http://127.0.0.1:8000/predict", json=data)
+r = requests.post("http://127.0.0.1:8000/data", json=data)
 
 # print the status code
-print(f"Status Code: {r.status_code}")
+print("Status Code:", r.status_code)
 # print the result
-print(f"Result: {r.json()['result']}")
+print("Result:", r.json())
