@@ -26,7 +26,6 @@ The model was trained on the Census Income dataset downloaded from the UCI Machi
 The evaluation data was available in the original Census income dataset. Also, 20% of the data is allocated to the test set.
 
 ## Metrics
-_Please include the metrics used and your model's performance on those metrics._
 
 The following are the results of metrics that were used to evaluate the performance of the model:
 
